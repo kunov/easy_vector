@@ -35,27 +35,65 @@ TypeError: can't multiply sequence by non-int of type 'tuple'
 >>> v + w
 Vector(2, 4, 6)
 ```
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" title="\begin{align*} \boldsymbol{\vec{v}} &= (2, 4, 6) \end{align*}" /></a>
 
-##### 2.3 subtraction
+##### 2.2 subtraction
+
 ```python
 >>> v - w
 Vector(0, 0, 0)
 ```
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(0,&space;0,&space;0)&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(0,&space;0,&space;0)&space;\end{align*}" title="\begin{align*} \boldsymbol{\vec{v}} &= (0, 0, 0) \end{align*}" /></a>
+##### 2.3 scalar multiplication
 
 ```python
-# scalar multiplication
->>> v = Vector(1, 1, 1, 1)
->>> v * 7
-Vector(7, 7, 7, 7)
 >>> 7 * v
-Vector(7, 7, 7, 7)
-
-# dot product
->>> Vector(1, 2, 3) * Vector(1, 2, 3) # dot product
-14 
-
+Vector(7, 14, 21)
+>>> v * 7
+Vector(7, 14, 21)
 ```
+
+##### 2.4 dot product
+
+```python
+>>> v * w
+14
+```
+
+##### 2.5 unit vector
+
+```python
+>>> v.unit
+Vector(0.2672612419124244, 0.5345224838248488, 0.8017837257372732)
+```
+
+##### 2.6 magnitude of a vector (Euclidian norm)
+
+```python
+>>> v.norm
+3.7416573867739413
+>>> v.unit.norm == 1
+True
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

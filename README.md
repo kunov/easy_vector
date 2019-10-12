@@ -1,9 +1,7 @@
-# easy_vector
+## easy_vector
 An exercise in "double under" methods - my attempt to augment Python's `tuples` to behave like mathematical vectors
 
 ***
-
-## Python tuples vs. easy_vector
 
 #### 1. regular tuples don't behave like vectors
 

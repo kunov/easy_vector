@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_vector/__init__.py
+easy_vector/easy_vector.py
+easy_vector.egg-info/PKG-INFO
+easy_vector.egg-info/SOURCES.txt
+easy_vector.egg-info/dependency_links.txt
+easy_vector.egg-info/top_level.txt

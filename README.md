@@ -5,8 +5,9 @@ An exercise in "double under" methods - my attempt to augment Python's `tuples` 
 
 ## Python tuples vs. easy_vector
 
+#### 1. tuple
+
 ```python
-# tuples
 >>> (1, 2, 3) + (1, 2, 3)
 (1, 2, 3, 1, 2, 3)
 
@@ -14,10 +15,15 @@ An exercise in "double under" methods - my attempt to augment Python's `tuples` 
 ...
 TypeError: can't multiply sequence by non-int of type 'tuple'
 ```
+
+#### 2. easy_vector
+
 ```python
 # easy_vector
 >>> from easy_vector import Vector
 ```
+
+#### 2.1 addition
 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{w}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{v}}&space;&plus;&space;\boldsymbol{\vec{w}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{w}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{v}}&space;&plus;&space;\boldsymbol{\vec{w}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" title="\large \begin{align*} \boldsymbol{\vec{v}} &= (1, 2, 3) \\ \boldsymbol{\vec{w}} &= (1, 2, 3) \\ \boldsymbol{\vec{v}} + \boldsymbol{\vec{w}} &= (2, 4, 6) \end{align*}" /></a>

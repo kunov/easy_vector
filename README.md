@@ -1,5 +1,7 @@
 # easy_vector
-An exercise in "double under" methods: My attempt to augment Python's tuples to behave like mathematical vectors
+An exercise in "double under" methods - my attempt to augment Python's `tuples` to behave like mathematical vectors
+
+***
 
 ## Python tuples vs. easy_vector
 

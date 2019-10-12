@@ -18,7 +18,7 @@ TypeError: can't multiply sequence by non-int of type 'tuple'
 # easy_vector
 >>> from easy_vector import Vector
 ```
-![addition](https://latex.codecogs.com/gif.download?%5Clarge%20%5Cbegin%7Balign*%7D%20%5Cboldsymbol%7B%5Cvec%7Bv%7D%7D%20%26%3D%20%281%2C%202%2C%203%29%20%5C%5C%20%5Cboldsymbol%7B%5Cvec%7Bw%7D%7D%20%26%3D%20%281%2C%202%2C%203%29%20%5C%5C%20%5Cboldsymbol%7B%5Cvec%7Bv%7D%7D%20+%20%5Cboldsymbol%7B%5Cvec%7Bw%7D%7D%20%26%3D%20%282%2C%204%2C%206%29%20%5Cend%7Balign*%7D)
+![addition](<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{w}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{v}}&space;&plus;&space;\boldsymbol{\vec{w}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;\begin{align*}&space;\boldsymbol{\vec{v}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{w}}&space;&=&space;(1,&space;2,&space;3)&space;\\&space;\boldsymbol{\vec{v}}&space;&plus;&space;\boldsymbol{\vec{w}}&space;&=&space;(2,&space;4,&space;6)&space;\end{align*}" title="\large \begin{align*} \boldsymbol{\vec{v}} &= (1, 2, 3) \\ \boldsymbol{\vec{w}} &= (1, 2, 3) \\ \boldsymbol{\vec{v}} + \boldsymbol{\vec{w}} &= (2, 4, 6) \end{align*}" /></a>)
 
 ```python
 # addition

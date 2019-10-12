@@ -23,3 +23,12 @@ def test_scalar_mult(inp):
 
 def test_dot_product(inp):
     assert inp['v'] * inp['w'] == 133
+
+def test_norm():
+    v = Vector(4, 3)
+    assert v.norm == 5
+
+def test_unit():
+    v = Vector(4, 3)
+    assert v.unit == Vector(4/5, 3/5)
+    assert v.unit.norm == 1

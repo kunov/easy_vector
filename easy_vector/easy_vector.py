@@ -1,3 +1,5 @@
+from math import sqrt
+
 class Vector:
 
     def __init__(self, *args):
@@ -59,4 +61,15 @@ class Vector:
     def __rmul__(self, other):
       
         result = tuple(other * x for x in self.vector)
+        return Vector(*result)
+
+    @property
+    def norm(self):
+        squared = tuple(x * x for x in self.vector)
+        sum_of_squares = sum(squared)
+        return sqrt(sum_of_squares)
+
+    @property
+    def unit(self):
+        result = tuple(x/self.norm for x in self.vector)
         return Vector(*result)
